@@ -1,0 +1,29 @@
+// z: represents a species named z, with the subsequent variables being associated with it
+// * at the end of species indicates an autotroph species
+// x=a represents variable x having value a
+
+species1*:
+    mass=.75
+    // reproduces in 10 days
+    reproductionAge = 240
+    // Temperature range on either side of the optimal
+    temperatureOptimal=10
+    temperatureRange=20
+
+species2:
+    mass=5
+    preyList=species1
+    preyPreference=species1:1
+    temperatureOptimal=15
+    temperatureRange=25
+    reproductionAge = 250
+//species3:
+//    mass=20
+//    preyList=species2
+//    preyList=species1
+//    preyPreference=species2:.9
+//    preyPreference=species1:.1
+//    temperatureOptimal=15
+//    temperatureRange=25
+//    reproductionAge = 500
+

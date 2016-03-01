@@ -1,0 +1,34 @@
+// This file gives desired population data for all of the species
+
+// species:
+//      timeStep(hour) = populationLevel
+
+species1:
+    0 = 4000 
+    2400 = 8000
+    4800 = 4000
+    7200 = 8000
+    9600 = 4000
+
+species2:
+    0 = 400 
+
+//species3:
+//    0 = 30 
+
+
+
+//    200 = 650
+//    400 = 300
+//    800 = 700
+//    1000 = 300
+//    1200 = 700
+//    1400 = 300
+//    1600 = 700
+
+
+
+//    400 = 60
+//    800 = 20
+//    1200 = 60
+//    1600 = 20
